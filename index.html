@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+        <title>Calculadora JavaScript</title>
+</head>
+<body>
+    <div id="main">
+    <h1>Calculadora</h1>
+    <label>Digite um número:</label>
+    <input type="number" id="primeironumero" placeholder=" Insira apenas números" name="primeironumero">
+    <br>
+    <select id="operadores">
+        <option selected disabled>Selecione um operador</option>
+        <option value="soma">somar</option>
+        <option value="subtracao">subtrair</option>
+        <option value="multiplicacao">multiplicar</option>
+        <option value="divisao">dividir</option>
+      </select>
+      <br>
+    <label>Digite outro número:</label>
+    <input type="number" id="segundonumero" placeholder=" Insira apenas números" name="segundonumero">
+    <br>
+    <button type="button" class="btn" value="Calcular" onclick="calcular()">Calcular</button>
+    <div id="mostra_resultado"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
